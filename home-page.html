@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel App. Home Page</title>
+    <link rel="stylesheet" href="home-page.css" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="hello">
+          <img class="hello__avatar" src="images/avatar.jpg" alt="avatar" />
+          <p class="hello__text">Hello, Indira!</p>
+        </div>
+        <button class="notice">
+          <i class="fa fa-bell-o"></i>
+        </button>
+      </div>
+      <form action="">
+        <label for="search">Find Your Stay</label><br />
+        <div class="search">
+          <input type="search" id="search" placeholder="    Search here..." />
+          <button class="search-filters"><i class="fa fa-sliders"></i></button>
+        </div>
+      </form>
+      <div class="countries">
+        <div class="countries_item">
+          <img src="images/India.jpg" alt="India" class="countries_item__img" />
+          <p class="countries_item__text">India</p>
+        </div>
+        <div class="countries_item">
+          <img
+            src="images/Australia.png"
+            alt="Australia"
+            class="countries_item__img"
+          />
+          <p class="countries_item__text">Australia</p>
+        </div>
+        <div class="countries_item">
+          <img
+            src="images/Russia.jpg"
+            alt="Russia"
+            class="countries_item__img"
+          />
+          <p class="countries_item__text">Russia</p>
+        </div>
+        <div class="countries_item">
+          <img
+            src="images/Greece.jpeg"
+            alt="Greece"
+            class="countries_item__img"
+          />
+          <p class="countries_item__text">Greece</p>
+        </div>
+      </div>
+      <section class="properties">
+        <div class="section_menu">
+          <p class="section-name">Our Prorerties</p>
+          <p class="view">View All</p>
+        </div>
+        <div class="properties_scroll">
+          <div class="hotel">
+            <img src="images/hotel-dubai.jpg" alt="" class="hotel_img" />
+            <div class="hotel_info">
+              <div class="hotel_info__text">
+                <p class="hotel_name">Dukes The Palm</p>
+                <p class="hotel_location">
+                  <i class="fa fa-map-marker"></i>Palm Jumeirah Dubai
+                </p>
+              </div>
+              <button class="hotel_view-button">&gt;</button>
+            </div>
+          </div>
+          <div class="hotel">
+            <img src="images/hotel-maldives.jpg" alt="" class="hotel_img" />
+            <div class="hotel_info">
+              <div class="hotel_info__text">
+                <p class="hotel_name">Gili Lankanfushi</p>
+                <p class="hotel_location">
+                  <i class="fa fa-map-marker"></i>Maldives
+                </p>
+              </div>
+              <button class="hotel_view-button">&gt;</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="properties">
+        <div class="section_menu">
+          <p class="section-name">Popular</p>
+          <p class="view">View All</p>
+        </div>
+        <div class="properties_scroll properties_scroll_popular">
+          <div class="hotel hotel_popular">
+            <img
+              src="images/hotel-spb.jpg"
+              alt=""
+              class="hotel_img hotel_img_popular"
+            />
+            <div class="hotel_info_popular">
+              <div class="hotel_info__text_popular">
+                <p class="hotel_name">Renaissance Baltic Hotel</p>
+                <p class="hotel_location">
+                  <i class="fa fa-map-marker"></i>Saint Petersburg
+                </p>
+              </div>
+              <p><i class="fa fa-eye"></i><span>49 reviewes</span></p>
+            </div>
+          </div>
+          <div class="hotel hotel_popular">
+            <img
+              src="images/hotel-rome.jpg"
+              alt=""
+              class="hotel_img hotel_img_popular"
+            />
+            <div class="hotel_info_popular">
+              <div class="hotel_info__text_popular">
+                <p class="hotel_name">Grand Hotel Plaza</p>
+                <p class="hotel_location">
+                  <i class="fa fa-map-marker"></i>Rome
+                </p>
+              </div>
+              <p><i class="fa fa-eye"></i><span>62 reviewes</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <nav>
+        <a href="index.html"><i class="fa fa-home" aria-hidden="false"></i></a>
+        <i class="fa fa-bell" aria-hidden="true"></i>
+        <i class="fa fa-bookmark" aria-hidden="false"></i>
+        <i class="fa fa-user" aria-hidden="false"></i>
+      </nav>
+    </div>
+  </body>
+</html>
